@@ -15,8 +15,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class Main {
-  public static final int ThreadSize = 1;
-  public static final int LOAD_SIZE = 10000;
+  public static final int ThreadSize = 50;
+  public static final int LOAD_SIZE = 500000;
   public static AtomicInteger SUCCESSNUMBER = new AtomicInteger(0);
   public static AtomicInteger FAILNUMBER = new AtomicInteger(0);
 
