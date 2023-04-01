@@ -11,9 +11,9 @@ public class SwipeDataSource {
   static{
     try{
       config.setDriverClassName("com.mysql.cj.jdbc.Driver");
-      config.setJdbcUrl("jdbc:mysql://localhost:3306/SwipeDataBase");
+      config.setJdbcUrl("jdbc:mysql://SwipeDataBase.c8tteeyvfh24.us-east-2.rds.amazonaws.com:3306/SwipeDataBase");
       config.setUsername("root");
-      config.setPassword("LMClw1142!");
+      config.setPassword("password");
       config.addDataSourceProperty("cachePrepstmts", "true");
       config.addDataSourceProperty("prepStmtCacheSize", "250");
       config.addDataSourceProperty("prepStmtCacheSqlLimit", "2048");
